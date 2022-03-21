@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 685, y: 498}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 0
-  controlID: 104
+  controlID: 29
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 313
     height: 443
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1013.75, y: 528.75}
+  m_LastWindowPixelSize: {x: 811, y: 423}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -408,10 +408,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 994}
-      m_SelectedIDs: 84ddffff
-      m_LastClickedID: -8828
-      m_ExpandedIDs: d678ffff90cfffff00dbffffd6dbffff84ddffff28deffff36e1ffff44e6ffffdefbffff444b0000804b00007c4c0000e24d00007a4e000040500000585a0000865e0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 10f2ffff
+      m_LastClickedID: -3568
+      m_ExpandedIDs: defbffff14220000f6240000c82b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -579,20 +579,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Imported Assets/Candy/Candy
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Imported Assets/Candy/Candy
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\mbran\Halloween-Knight-2\Halloween Knight
+  m_LastProjectPath: C:\Users\mbran\Halloween-Knight-3\Halloween Knight
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 19}
-    m_SelectedIDs: 34310100
-    m_LastClickedID: 78132
-    m_ExpandedIDs: 00000000140c00005e0e0000d8110000221700003c170000141a0000e61a00009e1c00003c31010000ca9a3b
+    m_SelectedIDs: 2c0c0000
+    m_LastClickedID: 3116
+    m_ExpandedIDs: 000000002c0c0000da0f0000741300005819000076190000fa1c0000d61d00009a1f00005420000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000140c0000d81100006a1200003c170000141a0000e61a00009e1c0000
+    m_ExpandedIDs: 000000002c0c0000da0f0000741300005819000076190000fa1c0000d61d00009a1f000054200000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300003e7d000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
