@@ -62,7 +62,7 @@ public class PlayerUIAndAbilities : MonoBehaviour
                 }
             }
         }
-        currency_ui.text = "Currency:" + currency.ToString();
+        currency_ui.text = "Candy:" + currency.ToString();
         health_ui.text = "Health:" + health.ToString();
         if (health <= 0)
             playerDeath();

@@ -5,9 +5,12 @@ using UnityEngine;
 public class GhostAI : MonoBehaviour
 {
     public Transform target;
+    public Vector3 original_pos;
     public float speed;
     public int hp;
     //public float force;
+    public bool pursuing = false;
+    public bool stationary = false;
     public bool receiving_damage = false;
     public bool this_happened = false;
     public bool dying = false;
@@ -17,7 +20,7 @@ public class GhostAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        original_pos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
     }
 
     // Update is called once per frame
@@ -75,8 +78,22 @@ public class GhostAI : MonoBehaviour
     {
             if (dying == false)
             {
-                transform.LookAt(target);
-                transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+                if (pursuing == true)
+                {
+                    stationary = false;
+                    transform.LookAt(target);
+                    transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+                }
+                else
+                {
+                    if (transform.position == original_pos)
+                        stationary = true;
+                    if (stationary == false)
+                    {
+                        transform.LookAt(original_pos);
+                        transform.position = Vector3.MoveTowards(transform.position, original_pos, speed * Time.deltaTime);
+                    }
+                }
             }
             if (hp <= 0)
             {
