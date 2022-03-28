@@ -31,7 +31,7 @@ public class PlayerMelee : MonoBehaviour
              if (attacking == true)
              {
                 this_happened = true;
-                other.GetComponent<GhostAI>().receiveDamage(30,50f);
+                other.GetComponent<GhostAI>().receiveDamage(30,5f);
                 attacking = false;
              }
          }

@@ -129,7 +129,7 @@ public class GhostAI : MonoBehaviour
             player.GetComponent<PlayerUIAndAbilities>().receiveDamage(30);
             Vector3 pushDir = target.transform.position;
             this.GetComponent<BoxCollider>().enabled = false;
-            GetComponent<Rigidbody>().AddForce(-pushDir * 80f);
+            GetComponent<Rigidbody>().AddForce(-pushDir * 5f);
             yield return new WaitForSeconds(0.1f);
             this.GetComponent<BoxCollider>().enabled = true;
     }

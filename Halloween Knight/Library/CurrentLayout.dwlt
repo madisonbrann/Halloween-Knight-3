@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1522
     height: 717
-  m_MinSize: {x: 683, y: 498}
+  m_MinSize: {x: 685, y: 498}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 0
-  controlID: 82
+  controlID: 124
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1128
     height: 717
-  m_MinSize: {x: 404, y: 498}
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 30
+  controlID: 79
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1128
     height: 443
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 31
+  controlID: 80
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,8 +266,8 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 717
-  m_MinSize: {x: 279, y: 74}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -408,10 +408,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 26}
-      m_SelectedIDs: 1e290000
-      m_LastClickedID: 10526
-      m_ExpandedIDs: 964effffc267ffff1e6effff6edaffff00f3ffff1af6ffffdefbffff182200001624000004250000fe2b0000
+      scrollPos: {x: 0, y: 456}
+      m_SelectedIDs: 0e280000
+      m_LastClickedID: 10254
+      m_ExpandedIDs: e2bdffff54beffff84dcffffd0dcffffb2e2ffffbce2ffff96e6fffff6eefffff8eeffffa8efffffdefbffff88250000a22500000e2800004e2900005c2a0000c22a0000e82d0000b02f0000c22f00007a310000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -467,9 +467,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6498387, y: -6.0754538, z: -213.68204}
+    m_Target: {x: 88.60974, y: -13.514289, z: -306.43}
     speed: 2
-    m_Value: {x: -1.6498387, y: -6.0754538, z: -213.68204}
+    m_Value: {x: 88.60974, y: -13.514289, z: -306.43}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -497,13 +497,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.032348137, y: -0.92663294, z: 0.08201371, w: 0.36548433}
+    m_Target: {x: 0.015122581, y: 0.9759697, z: -0.07195823, w: 0.20512596}
     speed: 2
-    m_Value: {x: 0.032348137, y: -0.92663294, z: 0.08201371, w: 0.36548433}
+    m_Value: {x: 0.015122581, y: 0.9759697, z: -0.07195823, w: 0.20512596}
   m_Size:
-    m_Target: 65.1249
+    m_Target: 121.89084
     speed: 2
-    m_Value: 65.1249
+    m_Value: 121.89084
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -568,7 +568,7 @@ MonoBehaviour:
     height: 254
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: candle
+    m_NameFilter: dete
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -579,20 +579,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Imported Assets/MedievalTavernPack/Prefabs/Furniture
+    - Assets/Madison Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Imported Assets/MedievalTavernPack/Prefabs/Furniture
+  - Assets/Madison Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mbran\Halloween-Knight-3\Halloween Knight
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 159}
+    scrollPos: {x: 0, y: 195}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e0c0000020f00005a19000078190000fc1c0000d81d00009c1f0000cc790200d279020000ca9a3b
+    m_ExpandedIDs: 00000000860c0000940f000078140000c8150000341b0000601b0000a61f0000b8200000bc22000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e0c0000dc0f0000761300005a19000078190000fc1c0000d81d00009c1f000056200000
+    m_ExpandedIDs: 00000000860c0000940f000078140000c8150000341b0000601b0000a61f0000b8200000bc220000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
