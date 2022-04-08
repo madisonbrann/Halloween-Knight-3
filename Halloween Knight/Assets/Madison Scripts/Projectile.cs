@@ -20,7 +20,7 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<GhostAI>().receiveDamage(30,50f);
+            collision.gameObject.GetComponent<GhostAI>().receiveDamage(30,5f);
         }
         Destroy(gameObject);
     }
